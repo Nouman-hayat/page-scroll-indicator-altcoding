@@ -1,0 +1,47 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 85px;
+  background: white;
+  z-index: 1;
+  margin-bottom: 20px;
+  border-bottom: 1px solid silver;
+}
+nav label{
+  font-weight: 600;
+  line-height: 85px;
+  padding: 0 80px;
+  font-size: 50px;
+  color: #0089f2;
+
+}
+
+.scroll-indicator{
+  height: 4px;
+  background: #0089f2;
+  margin-bottom: -3px;
+  width: 0%;
+}
+.content-wrapper{
+  margin-top: 90px;
+  top: 85px;
+  padding: 0 80px;
+}
+.content-wrapper h2{
+  font-size: 50px;
+  font-family: 'Open Sans',sans-serif;
+}
+.content-wrapper p{
+  padding: 10px 0;
+  font-size: 18px;
+  text-align: justify;
+  font-family: 'Noto Sans', sans-serif;
+}
